@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.imglist>img {
+    width: 30%;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+    height: 30vw;
+}
+
+.imglist>img:hover {
+    box-shadow: 2px 2px 5px 1px rgb(34, 32, 32);
+    width: 32%;
+}
+
+.imglist {
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.photo {
+    width: 20vw;
+    height: 20vw;
+    background-image: url(../img/04.jpg);
+    background-size: 30vw;
+    background-position-x: -1vw;
+    background-position-y: 0vw;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.container {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #FFBDF6;
+    border-radius: 10px;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    margin-top: 20px;
+}
+
+.header {
+    margin-bottom: 10vw;
+    overflow: hidden;
+}
+
+.info {
+    margin-left: 10px;
+    float: left;
+}
+
+div.info>div {
+    margin-top: 10px;
+}
+
+div.info>div.name {
+    margin-top: 0px;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    font-size: 70px;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    border-radius: 30px;
+}
+
+.btn-green {
+    background-color: #1d9d74;
+    color: #fff;
+}
+
+.btn-green:hover {
+    background-color: #4AE4B0;
+}
+
+.btn-blue {
+    background-color: #14216E;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #354283;
+}
+
+.btn-yellow {
+    background-color: #F57C00;
+    color: #fff;
+}
+
+.btn-yellow:hover {
+    background-color: #CE985E;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 100px;
+}
+
+.btn-sm {
+    padding: 4px 6px;
+    font-size: 50px;
+}
